@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bas Jan Ader</title>
+    <link rel="stylesheet" href="bas_style_09_12.css">
+
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans" rel="stylesheet">
+
+<style> 
+.body{
+    background-color: #8368EE;
+    margin-right: 0%;
+    margin-left: 10%;
+    /* margin-top: 15%; */
+    /* margin-bottom: 40%; */
+    margin-bottom: 40%;
+}
+
+a {
+    text-decoration: none; /* Убирает подчёркивание */
+    /* color:transparent; */
+    /* color: black; */
+    color: black;
+   }
+
+a:hover {
+    text-decoration: underline;
+    color:#8368EE;
+   }
+
+
+/* <!-- 
+.hovered_1 {
+position: relative;
+} --> */
+
+/* .hovered:hover.reveal{
+    display: block;
+} */
+
+/* .reveal {
+    display:none;
+    position: absolute;
+} */
+
+
+.img_1 {
+display:none;
+position:absolute;
+top: 10px;
+left: 100px;
+width: 50px;
+}
+
+.img_1:hover {
+display:none;
+position: absolute;
+top: 10px;
+left: 100px;
+width: 50px;
+}
+
+.hovered:.img_1:hover {
+display: block;
+}
+
+
+
+img.2{
+position:absolute;
+top: 50px;
+left: 600px;
+width:100px;
+}
+
+img.2:hover{
+position:absolute;
+top: 50px;
+left: 600px;
+width:100px;
+}
+
+
+img.3{
+position:absolute;
+top: 100px;
+left: 700px;
+width:200px;
+}
+
+
+
+
+/* <!-- 
+.img_1:hover:hover { 
+/* для группы объектов */
+display:block;
+position: absolute;
+/* top: 15px;
+left: 15px;
+width: 50px; */
+} --> */
+
+</style>
+</head>
+<body class="body">
+    <div>
+        <span class="name">
+                <marquee  scrollamount="30" height="500" direction="up" z-index:20px bottom:250px>
+                        Bas Jan Ader
+                </marquee>
+        </span> 
+        
+        <!-- как перенести блок выше? -->
+        <span class="hovered_1">
+                <marquee scrollamount="15" direction="left" 
+        onmouseover=this.stop() top="100px">
+                    <span class="name_white_bg">
+                       <a href="bas_09_12.html">
+                         Bas Jan Ader
+                       </a>
+                     </span>
+                </marquee> 
+        </span>
+    </div>
+
+    
+        <span class="name">
+                <marquee scrollamount="40" direction="left">
+                             Bas Jan Ader
+                </marquee>
+        </span> 
+
+        
+        <p> <span class="name_little">
+                <marquee scrollamount="15" width="20%" direction="right">
+                             1976 Cape Code
+                </marquee>
+        </span> 
+
+        </p>
+
+               
+        
+        <div class=".img_1:hover....hovered:">
+                    <img src="first.png">     
+        </div> 
+
+
+        <div class="img_2"><img src="second.png">     
+        </div> 
+
+        <div class="img_3"><img src="third.png">     
+        </div> 
+
+
+                    <!-- <div> <marquee direction="random" direction="bottom" scrollamount="1" >
+                        <span class="name">
+                             <a href="bas_09_12.html">
+                                 Bas Jan Ader
+                             </a>
+                        </span> 
+                    </div> -->
+           
+
+
+                     <!-- <marquee behavior="alternate" direction="bottom">
+                            <div class="name">
+                                 <a href="bas_09_12.html">
+                                     Bas Jan Ader
+                                 </a>
+                                    </div>  -->
+    </marquee>
+
+      
+
+
+
+</body>
+
+
+<!--  остановка при наведении
+    <marquee scrollamount="15" direction="left"onmouseover=this.stop()></marquee> -->
